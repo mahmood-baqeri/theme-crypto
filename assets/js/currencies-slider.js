@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.getElementsByClassName("currencies-slider-wrap"),t={direction:"horizontal",slidesPerView:"auto",spaceBetween:0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}};for(let n=0;n<e.length;n++){let o=e[n],r={...t};r.loop=!!o.getAttribute("data-loop"),new Swiper(o,r)}});
